@@ -1,16 +1,16 @@
 class Counter {
 	private int i;
 	
-	public Counter() {
-		this.i = 0;
+	public Counter(int i) {
+		this.i = i;
 	}
 	
-	public void inc() {
-		this.i++;
+	public int inc() {
+		return this.i++;
 	}
 	
-	public void dec() {
-		this.i--;
+	public int dec() {
+		return this.i--;
 	}
 	
 	public void setI(int i) {
